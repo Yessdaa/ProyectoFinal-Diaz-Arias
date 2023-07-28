@@ -20,20 +20,6 @@
 </head>
 
 <body>
-    <header id="header">
-        <div class="buscador">
-            <div id="buscar-contenido">
-                <input type="Buscar"
-                id="buscar-input"
-                placeholder="Busque el nombre del producto aqui.."
-                />
-                <button id="Buscar">Buscar</button>
-            </div>
-        </div>
-        <h1>YessAnime</h1> 
-        <img class="carrito" src="/img/carrito-de-compras.png" alt="carrito">
-    </header>
-
     <div class="logo">
         <ul>
             <li><img src="imgs inicio/1.png" alt=""></li>
@@ -44,171 +30,30 @@
             
         </ul>
     </div>
+    <header id="header">
+        <h1>YessAnime</h1>
+        <div>
+            <img id="carrito" class="carrito" src="/img/carrito-de-compras.png" alt="">
+            <div id="numero"></div>
+        </div>
+    </header>
 
+    <main>
+        <div id="contenedor" class="contenedor"> 
+            <img src="/simulador/imgS/2.png" alt="">
+        </div>
+    </main>
+    
+    <div id="contenedorCompra">
+        <div class="informacionCompra" id="informacionCompra">
+            <h2>Cesta</h2>
+            <p class="x" id="x">x</p>
+        </div>
 
-    <div id="contenedor" class="contenedor">
-        <div>
-            <img src="/simulador/imgS/1.png" alt="producto 1">
-            <div class="informacion">
-                <p>Manga Kimetsu no Yaiba, Vol: 1 </p>
-                <p class="precio">$179<span>.99</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="/simulador/imgS/2.png" alt="producto 2">
-            <div class="informacion">
-                <p>Manga Jujutsu Kaisen, Vol: 1</p>                   
-                <p class="precio">$189<span>.98</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="/simulador/imgS/3.png" alt="producto 3">
-            <div class="informacion">
-                <p>Manga Naruto, Vol: 1</p>                   
-                <p class="precio">$139<span>.99</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="/simulador/imgS/4.png" alt="producto 4">
-            <div class="informacion">
-                <p>Manga One Piece, Vol: 1</p>                   
-                <p class="precio">$129<span>.97</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="/simulador/imgS/5.png" alt="producto 5">
-            <div class="informacion">
-                <p>Manga Chainsaw, Vol: 1</p>                   
-                <p class="precio">$159<span>.95</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="/simulador/imgS/6.png" alt="producto 6">
-            <div class="informacion">
-                <p>Cosplay anime Yor Forger Spy X Family</p>                   
-                <p class="precio">$699<span>.99</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="/simulador/imgS/7.png" alt="producto 7">
-            <div class="informacion">
-                <p>Cosplay anime Tanjiro Kamado Kimetsu no Yaiba</p>                   
-                <p class="precio">$799<span>.99</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="/simulador/imgS/8.png" alt="producto 8">
-            <div class="informacion">
-                <p>Cosplay anime Akatsuki Naruto</p>                   
-                <p class="precio">$599<span>.99</span></p>
-                <button>Comprar</button>
-            </div>
-        </div>
-        <div>
-            <img src="/simulador/imgS/9.png" alt="producto 9">
-            <div class="informacion">
-                <p>Cosplay anime Kugisaki Nobara Jujutsu Kaisen</p>                   
-                <p class="precio">$499<span>.99</span></p>
-                <button>Comprar</button>
-            </div>
+        <div class="productosCompra" id="productosCompra"></div>
+        <div class="total" id="total"></div>
+        <button>Finalizar Compra</button>
     </div>
-    <div>
-        <img src="/simulador/imgS/10.png" alt="producto 8">
-        <div class="informacion">
-            <p>Cosplay anime Traje Maid Lolita Kawaii</p>                   
-            <p class="precio">$299<span>.99</span></p>
-            <button>Comprar</button>
-        </div>
-    </div>
-    <div>
-        <img src="/simulador/imgS/11.png" alt="producto 8">
-        <div class="informacion">
-            <p>Poster Anime Shingeki No Kiojin  90 x 60 cm</p>                   
-            <p class="precio">$99<span>.99</span></p>
-            <button>Comprar</button>
-        </div>
-    </div>
-    <div>
-        <img src="/simulador/imgS/12.png" alt="producto 8">
-        <div class="informacion">
-            <p>Poster Anime Naruto  60 x 30 cm</p>                   
-            <p class="precio">$39<span>.99</span></p>
-            <button>Comprar</button>
-        </div>
-    </div>
-    <div>
-        <img src="/simulador/imgS/13.png" alt="producto 8">
-        <div class="informacion">
-            <p>Poster Anime One Piece  90 x 60 cm</p>                   
-            <p class="precio">$59<span>.99</span></p>
-            <button>Comprar</button>
-        </div>
-    </div>
-    <div>
-        <img src="/simulador/imgS/14.png" alt="producto 8">
-        <div class="informacion">
-            <p>Poster Anime Kimetsu No Yaiba  90 x 60 cm</p>                   
-            <p class="precio">$49<span>.99</span></p>
-            <button>Comprar</button>
-        </div>
-    </div>
-    <div>
-        <img src="/simulador/imgS/15.png" alt="producto 8">
-        <div class="informacion">
-            <p>5 Posters Anime Tokyo Revengers  90 x 60 cm</p>                   
-            <p class="precio">$389<span>.99</span></p>
-            <button>Comprar</button>
-        </div>
-    </div>
-    <div>
-        <img src="/simulador/imgS/16.png" alt="producto 8">
-        <div class="informacion">
-            <p>Playera Anime Jujutsu Kaisen</p>                   
-            <p class="precio">$239<span>.99</span></p>
-            <button>Comprar</button>
-        </div>
-    </div>
-    <div>
-        <img src="/simulador/imgS/17.png" alt="producto 8">
-        <div class="informacion">
-            <p>Playera Anime Akatsuki Naruto</p>                   
-            <p class="precio">$179<span>.99</span></p>
-            <button>Comprar</button>
-        </div>
-    </div>
-    <div>
-        <img src="/simulador/imgS/18.png" alt="producto 8">
-        <div class="informacion">
-            <p>Playera Anime Kimetsu No Yaiba</p>                   
-            <p class="precio">$149<span>.99</span></p>
-            <button>Comprar</button>
-        </div>
-    </div>
-    <div>
-        <img src="/simulador/imgS/19.png" alt="producto 8">
-        <div class="informacion">
-            <p>Playera Anime Toros Negros Black Clover</p>                   
-            <p class="precio">$159<span>.99</span></p>
-            <button>Comprar</button>
-        </div>
-    </div>
-    <div>
-        <img src="/simulador/imgS/20.png" alt="producto 8">
-        <div class="informacion">
-            <p>Playera Anime Zoro One Piece</p>                   
-            <p class="precio">$199<span>.99</span></p>
-            <button>Comprar</button>
-        </div>
-    </div>
-</div>
-
 
     <script src="simulador.js"></script>
 </body>
