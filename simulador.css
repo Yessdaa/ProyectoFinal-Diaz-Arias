@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #f9802a82;
+    padding-top: 80px;
+}
+
+.logo {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo ul {
+    display: flex;
+    padding: 0;
+    width: 800%;
+    animation: slider 60s infinite ease-in-out;
+}
+
+.logo li {
+    width: 100%;
+    list-style: none;
+}
+
+.logo img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: 30px;
+
+}
+
+@keyframes slider {
+    0% {
+        margin-left: 0%;
+    }
+
+    2.5% {
+        margin-left: 0%;
+    }
+
+    12.5% {
+        margin-left: -100%;
+    }
+
+    25% {
+        margin-left: -200%;
+    }
+
+    37.5% {
+        margin-left: -300%;
+    }
+
+    50% {
+        margin-left: -400%;
+    }
+
+    62.7% {
+        margin-left: -500%;
+    }
+
+    75% {
+        margin-left: -600%;
+    }
+
+    87.5% {
+        margin-left: -700%;
+    }
+}
+
+
+.buscador{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#buscar-contenido{
+    margin: 1em 0;
+}
+
+#buscar-contenido input
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 30px 0px;
+}
+.contenedor img {
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.scroll{
+    background-color: aliceblue;
+    box-shadow: .1rem .2rem .3rem #333;
+}
+.scroll img{
+    filter: invert(15%);
+}           
+.scroll h1{
+    color: #d26f19;
+}
+.carrito{
+    filter: invert(100%);
+    width: 45px;
+    height: auto;
+}
+.contenedor{
+    display: grid;
+    gap: 50px;
+    margin-top: 80px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #cf6e35;
+    border-radius: 20px;
+}
+.contenedor>div:hover{
+    background-color: #f89809;
+}
+
+
+
+.informacion{
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.informacion .precio {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion .precio span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion button{
+    background-color: #02ade391;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion button:hover{
+    background-color: #FF9800;
+}
