@@ -10,6 +10,77 @@ body {
     padding-top: 80px;
 }
 
+.busqueda {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 65px;
+  }
+  #search-container {
+    margin: 1em 0;
+  }
+  #search-container input {
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+  }
+  #search-container input:focus {
+    border-bottom-color: #ff9800;
+  }
+  #search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: #ff9800;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+  }
+  .button-value {
+    border: 2px solid #ff9800;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #6f3a05;
+    cursor: pointer;
+  }
+  .active {
+    background-color: #d26f19;
+    color: #ffffff;
+  }
+  #products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1.5em;
+    padding: 2em 0;
+  }
+  .card {
+    background-color: #cf6e35;
+    max-width: 18em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+  }
+  .image-container {
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+  }
+  .container {
+    padding-top: 1em;
+    color: #110f29;
+  }
+  .container h5 {
+    font-weight: 500;
+  }
+  .hide {
+    display: none;
+  }
+
 .logo {
     width: 100%;
     margin: auto;
@@ -103,14 +174,17 @@ header{
     align-items: center;
     justify-content: center;
     gap:15%;
-    height: 70px;
+    height: 85px;
     top: 0;
     position: fixed;
     width: 100%;
+    margin-top: 20px;
 }
 .scroll{
+    height: 85px;
     background-color: aliceblue;
-    box-shadow: .1rem .2rem .3rem #333;
+    position: fixed;
+    top: -20px;
 }
 .scroll img{
     filter: invert(15%);
@@ -363,3 +437,6 @@ header{
     justify-content: center;
     align-items: center;
 }
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  }

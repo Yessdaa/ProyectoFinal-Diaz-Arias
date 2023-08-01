@@ -20,6 +20,31 @@
 </head>
 
 <body>
+    
+    <div class="busqueda">
+        <div id="search-container">
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Busca tu producto aquí.."
+          />
+          <button id="search">Buscar</button>
+        </div>
+        <div id="buttons">
+            <button class="button-value" onclick="filterProduct('Todo')">Todo</button>
+          <button class="button-value" onclick="filterProduct('Mangas')">Mangas</button>
+          <button class="button-value" onclick="filterProduct('Cosplays')">
+            Cosplays
+          </button>
+          <button class="button-value" onclick="filterProduct('Posters')">
+            Posters
+          </button>
+          <button class="button-value" onclick="filterProduct('Playeras')">
+            Playeras
+          </button>
+        </div>
+        <div id="products"></div>
+      </div>
     <div class="logo">
         <ul>
             <li><img src="imgs inicio/1.png" alt=""></li>
@@ -52,7 +77,7 @@
 
         <div class="productosCompra" id="productosCompra"></div>
         <div class="total" id="total"></div>
-        <button>Finalizar Compra</button>
+        <button class="pagar">Finalizar compra</button>
     </div>
 
     <script src="simulador.js"></script>
@@ -60,3 +85,4 @@
 
 
 </html>
+
